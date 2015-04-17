@@ -54,3 +54,6 @@ regions[header]         = Header
 regions[help]           = Help Messages
 regions[content]        = Content
 regions[footer]         = Footer
+regions[highlighted]    = Highlighted
+regions[sidebar_first]  = Sidebar First
+regions[sidebar_second] = Sidebar Second
