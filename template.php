@@ -22,3 +22,38 @@ function hcpss_schoolsite_theme_preprocess_page(&$vars, $hook) {
     $vars['theme_hook_suggestions'][] = 'page__' . $vars['node']->type;
   }
 }
+
+/**
+ * Removes the given class attribute from a classes array.
+ *
+ * @param array $array
+ *   The array from which the class should be removed.
+ * @param string $class
+ *   The class to remove.
+ *
+ * @return
+ *  The filtered array.
+ */
+function hcpss_schoolsite_theme_remove_class($array, $class) {
+  $index = array_search($class,$array);
+  if ($index !== FALSE) { unset($array[$index]); }
+  return $array;
+}
+
+/**
+ * Remove multiple classes from a classes array.
+ *
+ * @param array $array
+ *   The array from which the classes should be removed.
+ * @param array $classes
+ *   An array of class names to remove.
+ *
+ * @return
+ *  The filtered array.
+ */
+function hcpss_schoolsite_theme_remove_classes($array, $classes) {
+  foreach ($classes as $class) {
+    $array = center_remove_class($array, $class);
+  }
+  return $array;
+}
