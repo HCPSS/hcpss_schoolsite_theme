@@ -5,7 +5,7 @@
         <img src="http://www.hcpss.org/f/mrb/base/hs-theme/images/marriottsridgehs.png" alt="Logo image">
       </div>
         <ul>
-          <li><a href="javascript:void(0)" style="font-size: 2em; color: white;">Marriotts Ridge High School</a></li>
+          <li><a href="javascript:void(0)" style="font-size: 2em; color: white;"><?php print $site_name; ?></a></li>
         </ul>
 
         <div class="footer-secondary-links">
