@@ -2,7 +2,7 @@
 
       <div style="max-width: 68em; margin-left: auto; margin-right: auto;">
       <div class="footer-logo">
-        <img src="images/marriottsridgehs.png" alt="Logo image">
+        <img src="http://www.hcpss.org/f/mrb/base/hs-theme/images/marriottsridgehs.png" alt="Logo image">
       </div>
         <ul>
           <li><a href="javascript:void(0)" style="font-size: 2em; color: white;">Marriotts Ridge High School</a></li>
