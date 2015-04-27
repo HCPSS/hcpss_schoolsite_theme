@@ -31,10 +31,10 @@
         <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
         <nav role="navigation">
           <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-            <li class="nav-link"><a href="javascript:void(0)">About</a></li>
-            <li class="nav-link"><a href="javascript:void(0)">News</a></li>
-            <li class="nav-link"><a href="javascript:void(0)">Calendar</a></li>
-            <li class="nav-link"><a href="javascript:void(0)">Our Staff</a></li>
+            <!-- <li class="nav-link"><a href="javascript:void(0)">About</a></li>  -->
+            <li class="nav-link"><a href="/news">News</a></li>
+            <li class="nav-link"><a href="/calendar">Calendar</a></li>
+            <!-- <li class="nav-link"><a href="javascript:void(0)">Our Staff</a></li>
             <li class="nav-link"><a href="javascript:void(0)">Academics</a></li>
             <li class="nav-link more"><a href="javascript:void(0)">Student Services</a>
               <ul class="submenu">
@@ -53,7 +53,7 @@
                 <li><a href="javascript:void(0)">Activities &amp; Clubs</a></li>
                 <li><a href="javascript:void(0)">School Newspaper</a></li>
               </ul>
-            </li>
+            </li> -->
           </ul>
         </nav>
       </div>
