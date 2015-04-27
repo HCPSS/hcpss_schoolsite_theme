@@ -61,7 +61,7 @@
 
 <div class="refills-wrapper">
   <div class="primary-content">
-    <?php print render($content); ?>
+    <?php print render($page['content']); ?>
   </div>
 
   <footer class="footer" role="contentinfo">
