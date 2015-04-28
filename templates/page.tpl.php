@@ -63,6 +63,7 @@
   <div class="primary-content">
     <?php print render($page['content']); ?>
   </div>
+</div>
 
   <footer class="footer" role="contentinfo">
     <div class="footer-logo">
