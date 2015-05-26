@@ -5,13 +5,13 @@
     </div>
 
     <ul>
-      <li><a href="javascript:void(0)" style="font-size: 2em; color: white;"><?php print $site_name; ?></a></li>
+      <li><a href="/" style="font-size: 2em; color: white;"><?php print $site_name; ?></a></li>
     </ul>
 
     <div class="footer-secondary-links">
       <ul>
-        <li><a href="javascript:void(0)">Contact Us</a></li>
-        <li><a href="javascript:void(0)">Search</a></li>
+        <li><a href="/about">Contact Us</a></li>
+        <li><a href="/gsearch">Search</a></li>
       </ul>
 
       <ul class="footer-social">
@@ -31,10 +31,10 @@
     <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
     <nav role="navigation">
       <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-        <!-- <li class="nav-link"><a href="javascript:void(0)">About</a></li>  -->
+        <li class="nav-link"><a href="javascript:void(0)">About</a></li>
         <li class="nav-link"><a href="/news">News</a></li>
         <li class="nav-link"><a href="/calendar">Calendar</a></li>
-        <!-- <li class="nav-link"><a href="javascript:void(0)">Our Staff</a></li>
+        <li class="nav-link"><a href="/school-staff">Our Staff</a></li>
         <li class="nav-link"><a href="javascript:void(0)">Academics</a></li>
         <li class="nav-link more"><a href="javascript:void(0)">Student Services</a>
           <ul class="submenu">
@@ -53,7 +53,7 @@
             <li><a href="javascript:void(0)">Activities &amp; Clubs</a></li>
             <li><a href="javascript:void(0)">School Newspaper</a></li>
           </ul>
-        </li> -->
+        </li>
       </ul>
     </nav>
   </div>
@@ -67,7 +67,6 @@
 
 <footer class="footer" role="contentinfo">
   <div class="footer-logo">
-    <!-- <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image"> -->
     <img src="http://www.hcpss.org/f/mrb/base/hcpss-logo-outlined.png" alt="Logo image">
   </div>
   <div class="footer-links">
