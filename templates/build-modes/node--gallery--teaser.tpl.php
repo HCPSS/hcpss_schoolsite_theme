@@ -9,11 +9,11 @@
 ?>
 
 <a href="<?php print $node_url; ?>" class="grid-item"
-   style="background: url("<?php print $content_uri; ?>");
+   style="background: url("<?php print $content_uri[0]; ?>");
           background-position: top;
           background-repeat: no-repeat;
           background-size: cover;">
   <i class="fa fa-trophy"></i>
   <h1><?php print $title; ?></h1>
-  <p><?php print $content_description; ?></p>
+  <p><?php print $content_description[0]; ?></p>
 </a>
