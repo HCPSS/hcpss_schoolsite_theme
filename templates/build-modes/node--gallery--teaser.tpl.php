@@ -15,6 +15,7 @@
           background-size: cover;">
   <i class="fa fa-trophy"></i>
   <h1><?php print $title; ?></h1>
+  <div>wr - <?php print $wrapped_content; ?></div>
   <p>desc - <?php var_dump($content_description); ?></p>
   <p>uri - <?php var_dump($content_uri); ?></p>
   <p>tax - <?php var_dump($content_taxonomy); ?></p>
