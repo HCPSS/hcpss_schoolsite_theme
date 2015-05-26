@@ -11,7 +11,7 @@
     <title>High School Demo</title>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="http://code.cdn.mozilla.net/fonts/fira.css" >
-    <link href="http://www.hcpss.org/f/mrb/base/hs-theme/stylesheets/index.css" rel="stylesheet" type="text/css" />
+    <link href="http://www.hcpss.org/f/mrb/base/hs-theme/stylesheets/mhhs.css" rel="stylesheet" type="text/css" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
     $(document).ready(function() {
