@@ -29,7 +29,7 @@
 ?>
 
 <a href="<?php print $node_url; ?>" class="grid-item"
-   style="background: url("<?php print $content_uri[0]; ?>");
+   style="background: url('<?php print $content_uri[0]; ?>');
           background-position: top;
           background-repeat: no-repeat;
           background-size: cover;">
