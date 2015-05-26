@@ -4,8 +4,8 @@
   $xml = new SimpleXMLElement($wrapped_content);
 
   $content_uri = $xml->xpath('//img/@src');
-  $content_taxonomy = $xml->xpath('span');
-  $content_description = $xml->xpath('/p');
+  $content_taxonomy = $xml->xpath('//span');
+  $content_description = $xml->xpath('//p');
 ?>
 
 <a href="<?php print $node_url; ?>" class="grid-item"
