@@ -1,7 +1,7 @@
 <footer class="footer-2" role="contentinfo">
   <div style="max-width: 68em; margin-left: auto; margin-right: auto;">
     <div class="footer-logo">
-      <img class="school-logo" src="http://www.hcpss.org/f/mrb/base/hs-theme/images/mouthebronhs.png" alt="Logo image">
+      <img class="school-logo" src="<?php print $logo;?>" alt="Logo image">
     </div>
 
     <ul>
