@@ -59,6 +59,10 @@
   </div>
 </header>
 
+<?php if (!empty($page['banner'])): ?>
+  <?php print render($page['sidebar_second']); ?>
+<?php endif; ?>
+
 <div class="refills-wrapper">
   <div class="primary-content">
     <?php if (!empty($action_links)): ?>
