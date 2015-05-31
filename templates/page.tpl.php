@@ -1,11 +1,11 @@
 <footer class="footer-2" role="contentinfo">
   <div style="max-width: 68em; margin-left: auto; margin-right: auto;">
     <div class="footer-logo">
-      <img src="http://www.hcpss.org/f/mrb/base/hs-theme/images/mouthebronhs.png" alt="Logo image">
+      <img class="school-logo" src="http://www.hcpss.org/f/mrb/base/hs-theme/images/mouthebronhs.png" alt="Logo image">
     </div>
 
     <ul>
-      <li><a href="/" style="font-size: 2em; color: white;"><?php print $site_name; ?></a></li>
+      <li><a href="/" class="school-name" style="font-size: 2em; color: white;"><?php print $site_name; ?></a></li>
     </ul>
 
     <div class="footer-secondary-links">
