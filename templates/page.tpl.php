@@ -5,7 +5,7 @@
     </div>
 
     <ul>
-      <li><a href="/" class="school-name" style="font-size: 2em; color: white;"><?php print $site_name; ?></a></li>
+      <li><a href="/" class="school-name"><?php print $site_name; ?></a></li>
     </ul>
 
     <div class="footer-secondary-links">
