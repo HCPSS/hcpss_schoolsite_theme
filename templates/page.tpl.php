@@ -63,6 +63,13 @@
   <div class="primary-content">
     <?php print render($page['content']); ?>
   </div>
+
+  <?php if (!empty($page['sidebar_second'])): ?>
+      <div class="sbar" role="complementary">
+        <?php print render($page['sidebar_second']); ?>
+      </dic>  <!-- /#sidebar-second -->
+  <?php endif; ?>
+
 </div>
 
 <footer class="footer" role="contentinfo">
