@@ -60,7 +60,7 @@
 </header>
 
 <?php if (!empty($page['banner'])): ?>
-  <?php print render($page['sidebar_second']); ?>
+  <?php print render($page['banner']); ?>
 <?php endif; ?>
 
 <div class="refills-wrapper">
