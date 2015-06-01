@@ -36,7 +36,7 @@
           background-position: top;
           background-repeat: no-repeat;
           background-size: cover;">
-  <div style="background-color: rgba(0,0,0,.5);">
+  <div style="background-color: rgba(0,0,0,.5); padding: .4em;">
     <?php if ($content_taxonomy): ?>
       <i class="fa <?php print $tax_icon; ?>"></i>
     <?php endif; ?>
