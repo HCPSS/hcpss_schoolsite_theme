@@ -110,21 +110,21 @@
     </ul>
     <ul>
       <li><h3>Essential Applications</h3></li>
-      <li><a href="https://hcpss.me/fp/">Family Portal</a><br>Stay on top of your child’s grades and attendance</li>
-      <li><a href="http://launch.customschoolapp.net/hcpss/">HCPSS Mobile App</a><br>Aggregate news and events from the district and your school</li>
-      <li><a href="javascript:void(0)">Naviance</a><br>Identify colleges and careers that align with interests and goals</li>
-      <li><a href="https://hcpss2.securesites.net/SchoolLocator/index.jsp">School & Bus Locator</a><br>Find your child’s school and view bus pickup times</li>
+      <li><a href="https://hcpss.me/fp/">Family Portal</a></li>
+      <li><a href="http://launch.customschoolapp.net/hcpss/">HCPSS Mobile App</a></li>
+      <li><a href="javascript:void(0)">Naviance</a></li>
+      <li><a href="https://hcpss2.securesites.net/SchoolLocator/index.jsp">School &amp; Bus Locator</a></li>
     </ul>
     <ul>
       <li><h3>HCPSS Resources</h3></li>
-      <li><a href="http://www.hcpss.org/about-us/">About HCPSS</a><br>Learn more about the school system</li>
-      <li><a href="http://www.hcpss.org/academics/">Curriculum & Academics</a><br>Get an overview of the HCPSS curriculum</li>
-      <li><a href="http://www.hcpss.org/schools/enrollment-and-registration/">Enrollment & Registration</a><br>How to enroll your child in the school system</li>
-      <li><a href="http://www.hcpss.org/food-services/">Food Services</a><br>View menus, meal prices, and make online payments</li>
-      <li><a href="http://www.hcpss.org/about-us/forms/">HCPSS Forms</a><br>Health, medication, athletic, and application forms</li>
-      <li><a href="http://www.hcpss.org/academics/testing/parcc/">PARCC Assessments</a><br>Learn more about the PARCC assessments</li>
-      <li><a href="http://www.hcpss.org/board/policies/">Policies and Procedures</a><br>Review the policies set by the Board of Education</li>
-      <li><a href="http://www.hcpss.org/about-us/handbook/">Student Handbook</a><br>Guidebook for expected student behavior</li>
+      <li><a href="http://www.hcpss.org/about-us/">About HCPSS</a></li>
+      <li><a href="http://www.hcpss.org/academics/">Curriculum &amp; Academics</a></li>
+      <li><a href="http://www.hcpss.org/schools/enrollment-and-registration/">Enrollment &amp; Registration</a></li>
+      <li><a href="http://www.hcpss.org/food-services/">Food Services</a></li>
+      <li><a href="http://www.hcpss.org/about-us/forms/">HCPSS Forms</a></li>
+      <li><a href="http://www.hcpss.org/academics/testing/parcc/">PARCC Assessments</a></li>
+      <li><a href="http://www.hcpss.org/board/policies/">Policies and Procedures</a></li>
+      <li><a href="http://www.hcpss.org/about-us/handbook/">Student Handbook</a></li>
     </ul>
     <ul>
       <li><h3>Get Involved</h3></li>
