@@ -7,6 +7,8 @@
   $content_taxonomy = $xml->xpath('//span/text()');
   $content_description = $xml->xpath('//p/text()');
 
+  if( $content_taxonomy ) {
+
   $tax = $content_taxonomy[0]->asXml();
 
   switch ($tax) {
@@ -26,6 +28,7 @@
         $tax_icon = "fa-gavel";
         break;
   }
+}
 ?>
 
 <a href="<?php print $node_url; ?>" class="grid-item"
@@ -34,8 +37,13 @@
           background-repeat: no-repeat;
           background-size: cover;">
   <div style="background-color: rgba(0,0,0,.5);">
-  <i class="fa <?php print $tax_icon; ?>"></i>
+    <?php if ($content_taxonomy): ?>
+      <i class="fa <?php print $tax_icon; ?>"></i>
+    <?php endif; ?>
+
   <h1><?php print $title; ?></h1>
-  <?php print $content_description[0]->asXml(); ?>
+  <?php if ($content_description): ?>
+     <?php print $content_description[0]->asXml(); ?>
+   <?php endif; ?>
   </div>
 </a>
