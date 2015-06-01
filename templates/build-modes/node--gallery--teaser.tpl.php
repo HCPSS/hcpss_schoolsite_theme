@@ -33,7 +33,9 @@
           background-position: top;
           background-repeat: no-repeat;
           background-size: cover;">
+  <div style="background-color: rgba(0,0,0,.5);">
   <i class="fa <?php print $tax_icon; ?>"></i>
   <h1><?php print $title; ?></h1>
   <?php print $content_description[0]->asXml(); ?>
+  </div>
 </a>
