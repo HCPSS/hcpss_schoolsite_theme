@@ -88,6 +88,7 @@
   </div>
   <div class="footer-links">
     <ul>
+      <li><h3>Essentials</h3></li>
       <li><a href="/about">About</a></li>
       <li><a href="/news">News</a></li>
       <li><a href="/calendar">Calendar</a></li>
@@ -109,7 +110,7 @@
       <li><a href="javascript:void(0)">School Newspaper</a></li>
     </ul>
     <ul>
-      <li><h3>Essential Applications</h3></li>
+      <li><h3>Applications</h3></li>
       <li><a href="https://hcpss.me/fp/">Family Portal</a></li>
       <li><a href="http://launch.customschoolapp.net/hcpss/">HCPSS Mobile App</a></li>
       <li><a href="javascript:void(0)">Naviance</a></li>
