@@ -19,7 +19,7 @@
     </div>
   <?php endif; ?>
 
-  <?php print $date; ?>
+  <?php print "debug - " . $date; ?>
 
   <div class="content"<?php print $content_attributes; ?>>
     <?php
