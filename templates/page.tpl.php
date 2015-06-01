@@ -93,7 +93,7 @@
       <li><a href="/news">News</a></li>
       <li><a href="/calendar">Calendar</a></li>
       <li><a href="/staff-list">Our Staff</a></li>
-      <li><a href="/">Academics</a></li>
+      <li><a href="javascript:void(0)">Academics</a></li>
     </ul>
     <ul>
       <li><h3>Student Services</h3></li>
@@ -105,8 +105,8 @@
     </ul>
     <ul>
       <li><h3>Student Life</h3></li>
-      <li><a href="javascript:void(0)">Athletics</a></li>
-      <li><a href="javascript:void(0)">Activities and Clubs</a></li>
+      <li><a href="/athletics">Athletics</a></li>
+      <li><a href="/clubs">Activities and Clubs</a></li>
       <li><a href="javascript:void(0)">School Newspaper</a></li>
     </ul>
     <ul>
