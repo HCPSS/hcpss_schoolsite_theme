@@ -65,8 +65,11 @@
 
 <div class="refills-wrapper">
   <div class="primary-content">
+
     <?php if (!empty($tabs)): ?>
+      <div style="padding-top: 1em;">
         <?php print render($tabs); ?>
+      </div>
     <?php endif; ?>
     <?php print render($page['content']); ?>
   </div>
