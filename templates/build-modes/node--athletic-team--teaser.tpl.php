@@ -1,6 +1,6 @@
 <div class="news-message">
   <div class="news-message-image">
-    <span><i class="fa fa-trophy fa-3"></i></span>
+    <span><i class="fa fa-trophy" style="font-size: 2em;"></i></span>
   </div>
   <div class="news-message-content">
     <?php print render($title_prefix); ?>
