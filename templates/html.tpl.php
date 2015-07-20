@@ -15,9 +15,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
     $(document).ready(function() {
-      if ($("#js-parallax-window").length) {
-        parallax();
-      }
 
       var menuToggle = $('#js-centered-navigation-mobile-menu').unbind();
       $('#js-centered-navigation-menu').removeClass("show");
