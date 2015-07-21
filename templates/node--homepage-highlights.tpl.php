@@ -7,7 +7,7 @@
 
 ?>
 
-<div class="line-behind-text"><h6>Important News &amp; Upcoming Events</h6></div>
+<div class="line-behind-text" style="margin-bottom: 1.5em;"><h6>Important News &amp; Upcoming Events</h6></div>
 
 <div class="grid-items-lines">
 
