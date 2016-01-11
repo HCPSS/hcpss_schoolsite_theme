@@ -15,12 +15,15 @@
       </ul>
 
       <ul class="footer-social">
-        <li><a href="javascript:void(0)">
+        <li><a href="https://twitter.com/hcpss_<?php print $hcpss_school_code; ?>">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
         </a></li>
-        <li><a href="javascript:void(0)">
+
+        <?php if ($facebook_url): ?>
+        <li><a href="<?php print $facebook_url; ?>">
           <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
           </a></li>
+        <?php endif; ?>
       </ul>
     </div>
   </div>
