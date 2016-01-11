@@ -26,38 +26,16 @@
   </div>
 </footer>
 
-<header class="centered-navigation" role="banner">
-  <div class="centered-navigation-wrapper">
-    <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
-    <nav role="navigation">
-      <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-        <li class="nav-link"><a href="javascript:void(0)">About</a></li>
-        <li class="nav-link"><a href="/news">News</a></li>
-        <li class="nav-link"><a href="/calendar">Calendar</a></li>
-        <li class="nav-link"><a href="/school-staff">Our Staff</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Academics</a></li>
-        <li class="nav-link more"><a href="javascript:void(0)">Student Services</a>
-          <ul class="submenu">
-            <li><a href="javascript:void(0)">College Visits</a></li>
-            <li><a href="javascript:void(0)">Graduation Requirements</a></li>
-            <li><a href="javascript:void(0)">Scholarships</a></li>
-            <li><a href="javascript:void(0)">Tutoring</a></li>
-            <li><a href="javascript:void(0)">Work Permits</a></li>
-          </ul>
-        </li>
-        <li class="nav-link more"><a href="javascript:void(0)">Student Life</a>
-          <ul class="submenu">
-            <li><a href="javascript:void(0)">Athletics</a></li>
-            <li><a href="javascript:void(0)">Bell Schedules</a></li>
-            <li><a href="javascript:void(0)">Band</a></li>
-            <li><a href="javascript:void(0)">Activities &amp; Clubs</a></li>
-            <li><a href="javascript:void(0)">School Newspaper</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<?php if (!empty($primary_nav)): ?>
+  <header class="centered-navigation" role="banner">
+    <div class="centered-navigation-wrapper">
+      <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+      <nav role="navigation">
+        <?php print render($primary_nav); ?>
+      </nav>
+    </div><!-- /.centered-navigation-wrapper -->
+  </header><!-- /.centered-navigation -->
+<?php endif; ?>
 
 <?php if (!empty($page['banner'])): ?>
   <?php print render($page['banner']); ?>
