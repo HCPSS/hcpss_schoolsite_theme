@@ -13,12 +13,13 @@
     <h2<?php print $title_attributes; ?>><?php print $title; ?></h2>
   <?php print render($title_suffix); ?>
 
+
   <div class="content"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
       hide($content['links']);
-      // print render($action_links);
+      print render($action_links);
       print render($content);
     ?>
   </div>
