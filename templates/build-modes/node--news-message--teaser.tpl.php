@@ -6,7 +6,7 @@
     <?php print render($title_prefix); ?>
     <h1><a href="<?php print $node_url; ?>"><?php print $title; ?></a></h1>
     <?php print render($title_suffix); ?>
-    <p class="news-message-detail">4/15/2015</p>
+    <p class="news-message-detail"><?php print $date; ?></p>
     <?php print render($content); ?>
   </div>
 </div>
