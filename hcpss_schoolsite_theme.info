@@ -57,3 +57,4 @@ regions[highlighted]    = Highlighted
 regions[sidebar_first]  = Sidebar First
 regions[sidebar_second] = Sidebar Second
 regions[banner]         = Banner
+regions[footer_nav]     = Footer Navigation

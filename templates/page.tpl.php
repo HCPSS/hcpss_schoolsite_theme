@@ -63,60 +63,6 @@
 
 </div>
 
-<footer class="footer" role="contentinfo">
-  <div class="footer-logo">
-    <img src="http://www.hcpss.org/f/mrb/base/hcpss-logo-outlined.png" alt="Logo image">
-  </div>
-  <div class="footer-links">
-    <ul>
-      <li><h3>Essentials</h3></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/news">News</a></li>
-      <li><a href="/calendar">Calendar</a></li>
-      <li><a href="/staff-list">Our Staff</a></li>
-      <li><a href="javascript:void(0)">Academics</a></li>
-    </ul>
-    <ul>
-      <li><h3>Student Services</h3></li>
-      <li><a href="javascript:void(0)">College Visits</a></li>
-      <li><a href="javascript:void(0)">Graduation Requirements</a></li>
-      <li><a href="javascript:void(0)">Scholarships</a></li>
-      <li><a href="javascript:void(0)">Tutoring</a></li>
-      <li><a href="javascript:void(0)">Work Permits</a></li>
-    </ul>
-    <ul>
-      <li><h3>Student Life</h3></li>
-      <li><a href="/athletics">Athletics</a></li>
-      <li><a href="/clubs">Activities and Clubs</a></li>
-      <li><a href="javascript:void(0)">School Newspaper</a></li>
-    </ul>
-    <ul>
-      <li><h3>Applications</h3></li>
-      <li><a href="https://hcpss.me/fp/">Family Portal</a></li>
-      <li><a href="http://launch.customschoolapp.net/hcpss/">HCPSS Mobile App</a></li>
-      <li><a href="javascript:void(0)">Naviance</a></li>
-      <li><a href="https://hcpss2.securesites.net/SchoolLocator/index.jsp">School &amp; Bus Locator</a></li>
-    </ul>
-    <ul>
-      <li><h3>HCPSS Resources</h3></li>
-      <li><a href="http://www.hcpss.org/about-us/">About HCPSS</a></li>
-      <li><a href="http://www.hcpss.org/academics/">Curriculum &amp; Academics</a></li>
-      <li><a href="http://www.hcpss.org/schools/enrollment-and-registration/">Enrollment &amp; Registration</a></li>
-      <li><a href="http://www.hcpss.org/food-services/">Food Services</a></li>
-      <li><a href="http://www.hcpss.org/about-us/forms/">HCPSS Forms</a></li>
-      <li><a href="http://www.hcpss.org/academics/testing/parcc/">PARCC Assessments</a></li>
-      <li><a href="http://www.hcpss.org/board/policies/">Policies and Procedures</a></li>
-      <li><a href="http://www.hcpss.org/about-us/handbook/">Student Handbook</a></li>
-    </ul>
-    <ul>
-      <li><h3>Get Involved</h3></li>
-      <li><a href="http://www.lrhsptsa.org/">PTSA</a></li>
-      <li><a href="http://www.lrhsboosters.com/">Boosters</a></li>
-    </ul>
-  </div>
-
-
-  <hr>
-
-  <p>Part of the Howard County Public School System</p>
-</footer>
+<?php if (!empty($page['footer_nav'])): ?>
+  <?php print render($page['footer_nav']); ?>
+<?php endif; ?>
