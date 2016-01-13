@@ -18,7 +18,7 @@ function hcpss_schoolsite_theme_preprocess_html(&$vars) {
  * @param array $vars
  */
 function hcpss_schoolsite_theme_preprocess_page(&$vars) {
-  $vars['facebook_url'] = variable_get('hcpss_facebook_url');
+  $vars['facebook_url'] = variable_get('hcpss_school_facebook_url');
   $vars['hcpss_school_code'] = variable_get('hcpss_school_code', 'generic');
 
   // Add a fully expanded version of the main menu to the page template and call
