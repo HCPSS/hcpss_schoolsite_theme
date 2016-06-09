@@ -1,6 +1,6 @@
 <div class="link-resource">
   <div class="link-resource-image">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+    <img src="https://s3.amazonaws.com/hcpss.web.schoolsites/base/placeholder_logo_1.png" alt="Logo image">
   </div>
   <div class="link-resource-content">
     <?php print render($title_prefix); ?>
