@@ -64,5 +64,7 @@
 </div>
 
 <?php if (!empty($page['footer_nav'])): ?>
-  <?php print render($page['footer_nav']); ?>
+  <footer class="footer" role="contentinfo">
+    <?php print render($page['footer_nav']); ?>
+  </footer>
 <?php endif; ?>
