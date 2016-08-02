@@ -1,6 +1,6 @@
 <div class="news-message">
   <div class="news-message-image">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+    <img src="https://s3.amazonaws.com/hcpss.web.schoolsites/base/placeholder_logo_1.png" alt="Logo image">
   </div>
   <div class="news-message-content">
     <?php print render($title_prefix); ?>
