@@ -1,5 +1,5 @@
 <?php if ($display->title && !$display->hide_title): ?>
-  <h2><?php print $display->title; ?></h2>
+  <h1><?php print $display->title; ?></h1>
 <?php endif; ?>
 
 <div class="panel-display panel-1col clearfix" <?php if (!empty($css_id)) { print "id=\"$css_id\""; } ?>>
