@@ -14,7 +14,7 @@
         <?php if ($blog_url): ?>
         <li><a href="<?php print $blog_url; ?>">Blog</a></li>
         <?php endif; ?>
-        <li><a href="/gsearch">Search</a></li>
+        <li><a href="/search">Search</a></li>
       </ul>
 
       <ul class="footer-social">
