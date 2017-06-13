@@ -11,6 +11,9 @@
     <div class="footer-secondary-links">
       <ul>
         <li><a href="/about">Contact Us</a></li>
+        <?php if ($blog_url): ?>
+        <li><a href="<?php print $blog_url; ?>">Blog</a></li>
+        <?php endif; ?>
         <li><a href="/gsearch">Search</a></li>
       </ul>
 
