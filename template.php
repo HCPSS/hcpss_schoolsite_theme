@@ -10,6 +10,7 @@ function hcpss_schoolsite_theme_preprocess_html(&$vars) {
 
   // @TODO: hcpss_school_name vs hcpss_school_code? Why the subtle name change?
   $vars['hcpss_school_name'] = variable_get('hcpss_school_code', 'generic');
+  $vars['analytics_id'] = variable_get('hcpss_school_analytics_id');
 }
 
 /**
