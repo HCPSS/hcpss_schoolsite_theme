@@ -11,6 +11,8 @@
 
   $tax = $content_taxonomy[0]->asXml();
 
+  $tax_icon = "fa-star";
+
   switch ($tax) {
     case "<span>Competition</span>":
         $tax_icon = "fa-trophy";
