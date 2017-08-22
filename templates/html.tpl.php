@@ -9,10 +9,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>High School Demo</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="http://code.cdn.mozilla.net/fonts/fira.css" >
-    <link href="http://www.hcpss.org/f/mrb/base/hs-theme/stylesheets/<?php print $hcpss_school_name; ?>.css" rel="stylesheet" type="text/css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/hcpss.web.site/fonts/fira.css" >
+    <link href="https://www.hcpss.org/f/mrb/base/hs-theme/stylesheets/<?php print $hcpss_school_name; ?>.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script>
     $(document).ready(function() {
 
