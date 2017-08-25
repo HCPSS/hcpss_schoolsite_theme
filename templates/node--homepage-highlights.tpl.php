@@ -7,7 +7,11 @@
 
 ?>
 
-<div class="line-behind-text" style="margin-bottom: 1.5em;"><h6>Important News &amp; Upcoming Events</h6></div>
+<div class="line-behind-text" style="margin-bottom: 1.5em;">
+  <?php print render($title_prefix); ?>
+  <h6>Important News &amp; Upcoming Events</h6>
+  <?php print render($title_suffix); ?>
+</div>
 
 <div class="grid-items-lines">
 
